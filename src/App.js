@@ -18,7 +18,7 @@ function App() {
       }
     }
     else{
-      setStatus("You have not type your task");
+      setStatus("You have not typed your task");
     }
   }
   const del = (item)=>{
@@ -31,6 +31,7 @@ function App() {
       submit(task);
     }
   };
+
   return (
     <React.Fragment>
       <div className='container'>
