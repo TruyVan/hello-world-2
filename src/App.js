@@ -67,7 +67,7 @@ function App(){
         <div id='modal-fake' className='container-fluid bg-dark'>
           <div className='mt-5 container p-0 bg-white'>
             <div className='modal-header bg-danger text-white'>
-              <h4>DO YOU WANT TO CLEAR ALL THE TASK</h4>
+              <h4>ARE YOU SURE YOU WANT TO CLEAR ALL THE TASK?</h4>
             </div>
             <div className='modal-body'>
               This action can not be reversed!
