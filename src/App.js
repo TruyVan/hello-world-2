@@ -1,8 +1,7 @@
-import React, {useRef, useState} from 'react'
+import React, { useState} from 'react'
 
 function App(){
   // Components
-  const list = []
   // HOOK REACT
   const [task, setTask] = useState('')
   const [tasks, setTasks] = useState([])
